@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tourism.india</title>
+    <link rel="shortcut icon" href="./images/tourism.india.png" type="image/x-icon">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body onload="renderData()">
+    <img src="" alt="" id="bg-image" data-aos="fade">
+    <div class="blur"></div>
+    <nav>
+        <a href="">
+            <h2 class="logo">
+                TOURISM.<span>INDIA</span>
+            </h2>
+        </a>
+        <div class="menu">
+            <a href="">Home</a>
+            <a href="">News</a>
+            <a href="">About</a>
+            <a href="">Explore</a>
+        </div>
+        <div class="search-box active">
+            <input type="text" name="search-destination" id="search-destination" placeholder="Search destination">
+            <i class='bx bx-search' id="search-btn"></i>
+        </div>
+    </nav>
+    <main>
+        <section id="top">
+        </section>
+        <section id="bottom">
+            <h2 style="color: #fff; font-size: 1.2rem; font-weight: 600;">Destination</h2>
+            <div id="cards">
+            </div>
+        </section>
+    </main>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="./script.js"></script>
+</body>
+
+</html>
